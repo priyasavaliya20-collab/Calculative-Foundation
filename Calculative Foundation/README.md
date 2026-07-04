@@ -29,7 +29,7 @@ To convert raw student marks into a mathematical foundation — vectors, matrice
 ## 📕 Theoretical Foundation 
 #### Q1. What are Vectors and Matrices? 
 
-<img width="300" height="100" alt="Q1" src="https://github.com/user-attachments/assets/70725b5d-8a19-4329-93e7-a3981f86ef4d" />
+<img width="500" height="300" alt="Q1" src="https://github.com/user-attachments/assets/70725b5d-8a19-4329-93e7-a3981f86ef4d" />
 
 #### Q2. What are Norms (L1, L2, L∞)?
 
