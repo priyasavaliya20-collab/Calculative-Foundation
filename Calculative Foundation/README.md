@@ -61,7 +61,7 @@ To convert raw student marks into a mathematical foundation — vectors, matrice
 
 #### Q7. Singular Value Decomposition (SVD)
 
-<img width="455" height="387" alt="Q7" src="https://github.com/user-attachments/assets/7ae8a7c1-4e98-444d-8826-e9b035995d01" />
+<img width="450" height="387" alt="Q7" src="https://github.com/user-attachments/assets/7ae8a7c1-4e98-444d-8826-e9b035995d01" />
 
 
 #### Q8. Principal Component Analysis (PCA)
