@@ -34,7 +34,7 @@ To convert raw student marks into a mathematical foundation — vectors, matrice
 
 #### Q2. What are Norms (L1, L2, L∞)?
 
-<img src="images/q2.png" alt="Q2"
+<img src="images/Q2.png" alt="Q2"
      style="width:500px; height:250px; object-fit:contain; display:block; margin:auto;">
 
 #### Q3. Dot Product and Cross Product
