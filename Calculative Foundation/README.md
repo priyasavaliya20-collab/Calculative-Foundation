@@ -1,4 +1,4 @@
-# 🧮 Calculative Foundation
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1E1B4B,25:312E81,50:4C1D95,75:6D28D9,100:A855F7&height=220&section=header&text=Calculative%20Foundation&fontSize=52&fontColor=ffffff&animation=twinkling&fontAlignY=35&desc=Exploring%20the%20Mathematics%20Behind%20Modern%20Data%20Analysis&descAlignY=58&descSize=20"/>
 
 This project presents a **Linear Algebra + Probability Theory & Practical Analysis** on a real-world **student performance dataset** containing 20 records. The objective is to apply **vector/matrix operations, decompositions, dimensionality reduction, and probability distribution fitting** to analyze student performance patterns and derive meaningful academic insights.
 
@@ -18,8 +18,13 @@ To convert raw student marks into a mathematical foundation — vectors, matrice
 | 📘 `README.md` | Project documentation (this file) |
 
 ## 🛠️ Tools & Libraries
-
-**Python** · **Jupyter** · **NumPy** · **Pandas** · **SciPy** · **Matplotlib** · **Scikit-learn**
+![Python](https://img.shields.io/badge/Python-3.x-blue?style=flat-square&logo=python)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?style=flat-square&logo=jupyter)
+![Pandas](https://img.shields.io/badge/Pandas-Data_Analysis-green?style=flat-square)
+![NumPy](https://img.shields.io/badge/NumPy-Numerical-blue?style=flat-square)
+![SciPy](https://img.shields.io/badge/SciPy-Statistics-purple?style=flat-square)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-red?style=flat-square)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-Machine_Learning-f89939?style=flat-square&logo=scikitlearn)
 
 ## 📕 Part A — Theoretical Foundation (10 Topics)
 
@@ -64,6 +69,8 @@ df = pd.read_excel("student_performance_dataset.xlsx")
 subjects = ["Math", "Physics", "Chemistry", "English", "Computer"]
 matrix = df[subjects].to_numpy()      # 20 × 5 students-by-subjects matrix
 ```
+
+**Part A — Vector & Matrix Fundamentals**
 
 ### 1️⃣ Vectors, Norms, Dot & Cross Product
 
