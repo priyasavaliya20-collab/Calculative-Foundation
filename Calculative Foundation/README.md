@@ -44,7 +44,7 @@ To convert raw student marks into a mathematical foundation — vectors, matrice
 
 #### Q4. Vector Projections
 
-<img width="600" height="300" alt="Q4" src="https://github.com/user-attachments/assets/9d2a5f44-56db-405b-8828-b94f80b0252f" />
+<img width="700" height="350" alt="Q4" src="https://github.com/user-attachments/assets/9d2a5f44-56db-405b-8828-b94f80b0252f" />
 
 #### Q5. Eigenvalues and Eigenvectors
 
