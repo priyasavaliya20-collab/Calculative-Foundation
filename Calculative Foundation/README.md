@@ -38,7 +38,7 @@ To convert raw student marks into a mathematical foundation — vectors, matrice
 
 #### Q3. Dot Product and Cross Product
 
-<img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/6d79f35b-9333-4fd6-b253-94e808042597" />
+<img width="450" height="300" alt="image" src="https://github.com/user-attachments/assets/6d79f35b-9333-4fd6-b253-94e808042597" />
 
 
 #### Q4. Vector Projections
@@ -48,31 +48,31 @@ To convert raw student marks into a mathematical foundation — vectors, matrice
 #### Q5. Eigenvalues and Eigenvectors
 
 
-<img width="600" height="300" alt="Q5" src="https://github.com/user-attachments/assets/a70a2d7b-826b-4e92-8481-439c201cc6ff" />
+<img width="450" height="300" alt="Q5" src="https://github.com/user-attachments/assets/a70a2d7b-826b-4e92-8481-439c201cc6ff" />
 
 
 #### Q6. LU Decomposition
 
 
-<img width="600" height="300" alt="Q6" src="https://github.com/user-attachments/assets/536d8895-aa4f-4289-a352-1fff4f296def" />
+<img width="450" height="300" alt="Q6" src="https://github.com/user-attachments/assets/536d8895-aa4f-4289-a352-1fff4f296def" />
 
 
 
 #### Q7. Singular Value Decomposition (SVD)
 
-<img width="600" height="300" alt="Q7" src="https://github.com/user-attachments/assets/7ae8a7c1-4e98-444d-8826-e9b035995d01" />
+<img width="450" height="300" alt="Q7" src="https://github.com/user-attachments/assets/7ae8a7c1-4e98-444d-8826-e9b035995d01" />
 
 
 #### Q8. Principal Component Analysis (PCA)
 
 
-<img width="600" height="300" alt="Q8" src="https://github.com/user-attachments/assets/e3f99093-bb7f-41c9-af8f-f804527722df" />
+<img width="450" height="300" alt="Q8" src="https://github.com/user-attachments/assets/e3f99093-bb7f-41c9-af8f-f804527722df" />
 
 
 
 #### Q9. Linear Discriminant Analysis (LDA)
 
-<img width="600" height="300" alt="Q9" src="https://github.com/user-attachments/assets/1794301c-5a5f-4071-872a-be092906451a" />
+<img width="450" height="300" alt="Q9" src="https://github.com/user-attachments/assets/1794301c-5a5f-4071-872a-be092906451a" />
 
 
 
