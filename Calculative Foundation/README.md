@@ -51,6 +51,7 @@ journey
       PCA : 5: Student
       LDA : 5: Student
 ```
+---
 
 #### Q1. What are Vectors and Matrices? 
 
