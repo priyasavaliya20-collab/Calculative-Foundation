@@ -38,6 +38,21 @@ To convert raw student marks into a mathematical foundation — vectors, matrice
 
 ---
 
+### 🎬 PART :- A (GIF)
+
+<img width="800" height="425" alt="Part -A gif" src="https://github.com/user-attachments/assets/3d33f1fd-68c9-4472-8182-db75ffec6e18" />
+
+---
+
+
+### 🎬 PART :- B  (GIF)
+
+<img width="800" height="425" alt="Part -B gif" src="https://github.com/user-attachments/assets/6ff1fbfd-de40-4fa3-b454-572f1373859e" />
+
+---
+
+
+
 ## 📕 Theoretical Foundation 
 
 ## 🗺️ Roadmap
