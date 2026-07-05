@@ -152,7 +152,7 @@ for i in range(len(student_vectors)):
     print(f"Student {i+1} Vector = {student_vectors[i]}")
 ```
 
-🧮 **Insight:** Every student is now a **5-dimensional vector** in "subject space" — e.g. Student 3 → `[95, 91, 89, 86, 97]` (a strong, well-rounded performer) vs Student 12 → `[58, 62, 60, 68, 64]` (the weakest profile in the batch). Representing students this way is what lets us later apply norms, angles, projections, and PCA to compare them mathematically instead of just eyeballing marksheets.
+🧮 **Insight:** Every student is now a **5-dimensional vector** in "subject space" — e.g. Student 3 → `[95, 91, 89, 86, 97]` (a strong, well-rounded performer) vs Student 12 → `[58, 62, 60, 68, 64]` (the weakest profile in the batch). 
 
 ### 2️⃣ Q2. Norm-1, Norm-2, Dot Product, Angle & Cross Product
 
@@ -177,7 +177,6 @@ cross_product = np.cross(vectors_3d[0], vectors_3d[1])
 
 📏 **Insight:** Norm-2 (Euclidean length) ranges from **139.74 (Student 12)** to **207.59 (Student 17)** — the lowest and highest overall performers by magnitude. Dot Product = **31518**, Angle ≈ **4.97°** between Student 1 and Student 2 — a near-zero angle means their score patterns point in almost the same direction, even though Student 1 scores higher overall. Cross Product = **[203, −392, 168]** (non-zero) confirms the two students' 3-subject profiles are not parallel — they emphasize different subjects to different degrees.
 
-✅ **Conclusion:** Norms rank students by overall magnitude; the angle between vectors captures *pattern* similarity independent of level — the same idea behind cosine similarity in recommender systems.
 
 ### 3️⃣ Q3. Vector Projection
 
@@ -189,7 +188,7 @@ print("Projection Vector =", projection.round(2))
 
 📉 **Insight:** Projecting Student 1 onto Student 2 gives **[81.75, 78.35, 84.02, 91.97, 86.29]** — the part of Student 1's performance that "lines up" with Student 2's direction.
 
-✅ **Conclusion:** Projection is the mathematical base of regression — it answers "if I only had Student 2's pattern to explain Student 1, how much of it would be explained?"
+
 
 ---
 
@@ -216,7 +215,7 @@ print("Determinant =", round(determinant, 2))
 
 🧩 **Insight:** `matrix @ matrix.T` is a similarity (Gram) matrix — its diagonal entries are the squared L2-norms of each student (e.g. 36058 = 189.89², matching Student 1's Norm-2), and its off-diagonal entries are dot products between students (e.g. 31518 between Students 1 & 2). Determinant of the 5×5 block (first 5 students) = **−56537**, non-zero — confirming the 5 rows are linearly independent and the matrix is full rank.
 
-✅ **Conclusion:** A non-zero determinant is a good sign for any downstream linear algebra (LU, inverse, solving systems) — there's no redundant/degenerate data in this block.
+
 
 ---
 
@@ -241,7 +240,6 @@ print("5D Shape:", hyperplane.shape)
 
 📈 **Insight:** Using just Math gives a line (1D); adding Physics gives a plane (2D); using all 5 subjects gives a hyperplane in 5D. Shapes grow cleanly from **(20, 2) → (20, 3) → (20, 5)** as subjects are added — same 20 students, increasingly rich description.
 
-✅ **Conclusion:** This is the "curse of dimensionality" in miniature: more subjects means more information but a harder-to-visualize space — exactly the problem PCA (Q10) is built to solve.
 
 ---
 
@@ -257,7 +255,7 @@ print("Eigenvalues:", eigenvalues)
 
 🌟 **Insight:** Eigenvalues of the covariance matrix are **509.96, 8.46, 5.23, 1.81, 0.66**. The largest eigenvalue alone explains **~96.9% of total variance** among students — almost all the differences between students come down to one dominant factor: overall academic ability.
 
-✅ **Conclusion:** This single number is the mathematical proof behind PCA's later success — since one direction captures nearly everything, reducing 5 subjects to 1–2 components loses almost no information.
+
 
 ### 7️⃣ Q8. LU Decomposition
 
@@ -269,7 +267,6 @@ P, L, U = lu(square_matrix)
 
 🧩 **Insight:** LU Decomposition splits the matrix into **P** (row-swap/pivoting for numerical stability), **L** (lower-triangular multipliers) and **U** (upper-triangular reduced form).
 
-✅ **Conclusion:** LU decomposition is the "under the hood" method NumPy uses whenever you call `det()` or `solve()` — Q4's determinant was effectively computed this way.
 
 ### 8️⃣ Q9. Singular Value Decomposition (SVD)
 
@@ -280,7 +277,6 @@ print("Singular Values:", S)
 
 🧬 **Insight:** Singular values are **787.4, 23.4, 10.1, 6.2, 5.3** — the first singular value alone accounts for **~99.9% of the total "energy"** in the data. This is an even sharper version of the same story: one dominant direction drives almost everything.
 
-✅ **Conclusion:** In image compression or recommender systems, this is exactly why keeping just the top 1–2 singular values/vectors reconstructs the data almost perfectly — the same principle applies here.
 
 ---
 
@@ -299,7 +295,6 @@ pca_df = pd.DataFrame(pca_data, columns=["PC1", "PC2"])
 
 🎯 **Insight:** PCA compresses the 5 subjects into 2 components. **PC1** ranges from about **−35.8 (Student 12)** to **+32.9 (Student 17)** and clearly tracks overall performance level. **PC2** has a much smaller spread (≈ −5 to +4.5), capturing minor secondary variation.
 
-✅ **Conclusion:** PC1 essentially re-derives "total marks" from pure geometry, confirming Q7's finding — one dominant academic-ability axis explains almost all the spread between students.
 
 ### 🔟 Q11. Linear Discriminant Analysis (LDA)
 
