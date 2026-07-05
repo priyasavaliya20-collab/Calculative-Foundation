@@ -1,4 +1,5 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:3E2522,25:8C6E63,50:D3A376,75:FFE0B2,100:FFF2DF&height=220&section=header&text=Calculative%20Foundation&fontSize=52&fontColor=FFF2DF&animation=twinkling&fontAlignY=35&desc=Exploring%20the%20Mathematics%20Behind%20Modern%20Data%20Analysis&descAlignY=58&descSize=20"/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:5D0906,25:8E3A2C,50:B58A4C,75:E6B6C8,100:E5C6B6&height=220&section=header&text=Calculative%20Foundation&fontSize=52&fontColor=FFF5EC&animation=twinkling&fontAlignY=35&desc=Exploring%20the%20Mathematics%20Behind%20Modern%20Data%20Analysis&descAlignY=58&descSize=20"/>
 
 This project presents a **Linear Algebra + Probability Theory & Practical Analysis** on a real-world **student performance dataset** containing 20 records. The objective is to apply **vector/matrix operations, decompositions, dimensionality reduction, and probability distribution fitting** to analyze student performance patterns and derive meaningful academic insights.
 
