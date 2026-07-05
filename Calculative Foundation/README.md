@@ -55,7 +55,7 @@ To convert raw student marks into a mathematical foundation — vectors, matrice
 #### Q6. LU Decomposition
 
 
-<img width="455" height="387" alt="Q6" src="https://github.com/user-attachments/assets/536d8895-aa4f-4289-a352-1fff4f296def" />
+<img width="455" height="250" alt="Q6" src="https://github.com/user-attachments/assets/536d8895-aa4f-4289-a352-1fff4f296def" />
 
 
 
