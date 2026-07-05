@@ -29,27 +29,28 @@ To convert raw student marks into a mathematical foundation — vectors, matrice
 
 ## 📕 Theoretical Foundation 
 
+## 🗺️ Roadmap
+
+```mermaid
 journey
-    title Linear Algebra Roadmap
-
+    title Linear Algebra Roadmap — Calculative Foundation
     section Vectors
-      Basics : 5: Student
-      Operations : 5: Student
-      Distance : 5: Student
-      Norm : 5: Student
-
+      Vector Basics : 5: Student
+      Matrix Basics : 5: Student
+      Matrix Operations : 5: Student
+      Norms : 5: Student
     section Products
       Dot Product : 5: Student
       Cross Product : 5: Student
-
+      Projection : 5: Student
     section Matrix
-      Matrix : 5: Student
-      Eigen : 5: Student
-
+      Eigenvalues : 5: Student
+      LU Decomposition : 5: Student
     section ML
       SVD : 5: Student
       PCA : 5: Student
       LDA : 5: Student
+```
 
 #### Q1. What are Vectors and Matrices? 
 
