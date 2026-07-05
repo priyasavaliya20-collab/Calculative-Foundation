@@ -27,6 +27,17 @@ To convert raw student marks into a mathematical foundation — vectors, matrice
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-red?style=flat-square)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-Machine_Learning-f89939?style=flat-square&logo=scikitlearn)
 
+---
+
+
+# 🎬 Project Demo
+
+[![Watch Demo](https://img.shields.io/badge/▶️%20Watch%20Demo-Google%20Drive-blue?style=for-the-badge&logo=google-drive)](https://drive.google.com/file/d/13q43a7F6rNej6iNfhtCO7OJmMQ9fEMxo/view?usp=sharing)
+
+📹 Click the badge above to watch the complete project demonstration.
+
+---
+
 ## 📕 Theoretical Foundation 
 
 ## 🗺️ Roadmap
