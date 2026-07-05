@@ -41,7 +41,7 @@ The project combines mathematical theory with practical implementation in Python
 
 # 🎬 Project Demo
 
-[![Watch Demo](https://img.shields.io/badge/▶️%20Watch%20Demo-Google%20Drive-blue?style=for-the-badge&logo=google-drive)](https://drive.google.com/file/d/13q43a7F6rNej6iNfhtCO7OJmMQ9fEMxo/view?usp=sharing)
+[![Watch Demo](https://img.shields.io/badge/▶️%20Watch%20Demo-Google%20Drive-blue?style=for-the-badge&logo=google-drive)]([https://drive.google.com/file/d/13q43a7F6rNej6iNfhtCO7OJmMQ9fEMxo/view?usp=sharing](https://canva.link/xsva4sq0ak9glxo))
 
 📹 Click the badge above to watch the complete project demonstration.
 
