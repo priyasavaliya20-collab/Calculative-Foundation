@@ -28,6 +28,29 @@ To convert raw student marks into a mathematical foundation — vectors, matrice
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-Machine_Learning-f89939?style=flat-square&logo=scikitlearn)
 
 ## 📕 Theoretical Foundation 
+
+journey
+    title Linear Algebra Roadmap
+
+    section Vectors
+      Basics : 5: Student
+      Operations : 5: Student
+      Distance : 5: Student
+      Norm : 5: Student
+
+    section Products
+      Dot Product : 5: Student
+      Cross Product : 5: Student
+
+    section Matrix
+      Matrix : 5: Student
+      Eigen : 5: Student
+
+    section ML
+      SVD : 5: Student
+      PCA : 5: Student
+      LDA : 5: Student
+
 #### Q1. What are Vectors and Matrices? 
 
 <img width="600" height="300" alt="Q1" src="https://github.com/user-attachments/assets/70725b5d-8a19-4329-93e7-a3981f86ef4d" />
