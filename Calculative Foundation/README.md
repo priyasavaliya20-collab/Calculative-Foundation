@@ -9,8 +9,10 @@ The project combines mathematical theory with practical implementation in Python
 
 ## 🎯 Objective
 
-<img width="1670" height="941" alt="image" src="https://github.com/user-attachments/assets/183da349-0ccc-4228-875b-14027fe9646e" />
+<img src="images/project.png"
+     style="width:1366px; height:650px; object-fit:cover;">
 
+     
 ---
 
 
