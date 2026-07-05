@@ -5,9 +5,14 @@ This project presents a **Linear Algebra + Probability Theory & Practical Analys
 
 The project combines mathematical theory with practical implementation in Python (Jupyter Notebook), covering the complete analytical workflow — from data loading and vector representation to eigen-decomposition, PCA/LDA, and probability distribution analysis.
 
+---
+
 ## 🎯 Objective
 
-To convert raw student marks into a mathematical foundation — vectors, matrices, and distributions — that reveals *how* students differ, *which* subjects drive that difference, and *what* statistical pattern their overall performance follows.
+<img width="1670" height="941" alt="image" src="https://github.com/user-attachments/assets/183da349-0ccc-4228-875b-14027fe9646e" />
+
+---
+
 
 ## 🗂️ Project Files
 
@@ -17,6 +22,8 @@ To convert raw student marks into a mathematical foundation — vectors, matrice
 | 📊 `student_performance_dataset.xlsx` | Student performance dataset — 20 records, 5 subjects |
 | 📄 `Theory.pdf` | Theoretical foundations, formulas & visual explanations (Part A) |
 | 📘 `README.md` | Project documentation (this file) |
+
+---
 
 ## 🛠️ Tools & Libraries
 ![Python](https://img.shields.io/badge/Python-3.x-blue?style=flat-square&logo=python)
